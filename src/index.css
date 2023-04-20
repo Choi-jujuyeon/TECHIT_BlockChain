@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-style {
+        @apply py-2 px-4 bg-white border-2 border-main text-main rounded-lg shadow-md hover:bg-main hover:text-white focus:outline-none;
+    }
+}
